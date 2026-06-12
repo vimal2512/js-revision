@@ -1,0 +1,45 @@
+1. console.log(a);
+var a = 10
+
+output: undefined bcoz var a is hoisted memory phase creates a -> undefined
+
+2. console.log(a);
+let a = 10
+
+output: Reference error bcoz let is hoisted but placed inside temporal dead zone
+        and cannot access before initialization
+
+3. {
+    var a = 10;
+}
+
+console.log(a);
+
+output: 10 bcoz var is not block scoped it is accessible outside block
+
+4. {
+    let a = 10
+}
+
+console.log(a);
+
+output: Reference error because let is block scoped variable dies outside block
+
+5. console.log(5 == "5");
+   console.log(5 === "5");
+
+output: true
+        false
+        == checks after coercion so 5 == 5 true
+        === checks datatype and value number !== string false
+
+6. "use strict"
+    x=100
+
+    output: Reference error because strict mode prevents accidental variable creation
+    without strict mode x = 100 would silently create variable
+
+7. console.log(typeof null);
+   output: object because historical javascript bug 
+        null is not actually an object
+
