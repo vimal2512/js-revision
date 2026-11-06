@@ -2,7 +2,7 @@
 // functions are objects in javascript
 // functions can be stored
 // functions can be passed as arguments
-// functions can be retuened from other functions
+// functions can be returned from other functions
 // functions can be executed later
 
 
@@ -19,31 +19,31 @@ greet();
 // a,b - parameters
 // 10,20 - arguments
 
-function add(a,b){
-    console.log(a + b);
-}
+// function add(a,b){
+//     console.log(a + b);
+// }
 
-add(10, 20);
+// add(10, 20);
 
 // Functions are objects
 
-function test() {
-    console.log("Hi");
-}
+// function test() {
+//     console.log("Hi");
+// }
 
-console.log(typeof test);
+// console.log(typeof test);
 
 // output - function becuase function is a special object
 
 // Function can be stored
 
-// function sayHi(){
-//     return "Hello";
-// }
+function sayHi(){
+    return "Hello";
+}
 
-// const x = sayHi
+const x = sayHi
 
-// console.log(x());
+console.log(x());
 
 // Note => no parentheses while storing but parantheses while executing
 
@@ -58,7 +58,7 @@ console.log(test());
 
 // test() => execution of function
 // tries to print return value of the function
-// this function return nothing anf in javascript every function return something
+// this function return nothing and in javascript every function return something
 // if no explicit return exists then it will return undefined
 
 // console.log() vs return

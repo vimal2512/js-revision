@@ -103,7 +103,7 @@ promise
 //     console.log(err)
 //   })
 
-// Asyn and await modern async synatax
+// Async and await modern async synatax
 // built on top of promises
 // async await does not replace promises it simplifice promise usage
 // await can only be used inside async function
@@ -149,3 +149,7 @@ fetchData()
   }
 
   // Event loop refer js-internals.txt
+
+
+  // missing concepts
+  // dom events like event handlers, event bubbling, event listeners, deboucing, throttling

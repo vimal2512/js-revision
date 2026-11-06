@@ -147,3 +147,12 @@ coffee.startMachine();
 // security/control                                simplicity
 // focus on access restriction                     focus on implementation hiding
 
+
+
+setTimeout(() => {
+    console.log("Executed later");
+});
+
+(function() {
+    console.log("IIFE")
+})

@@ -5,7 +5,6 @@ let a
 console.log(a);
 
 // output - undefined => because variable is decalared but not initialized
-
 // null means developer intentionally assigned empty values
 
 let user = null;
@@ -109,7 +108,6 @@ console.log(h);
 // output 10 because var ignores block scope
 
 
-
 // Hoisting
 
 // Javascript runs in two pahses
@@ -117,6 +115,7 @@ console.log(h);
 
 
 // Phase 2 - Execution => code runs line by line
+
 
 // Var hoisting
 
@@ -135,7 +134,7 @@ var u  = 75;
 
 // output refernce error 
 // memory exists but inaccessible before initialization 
-// that inaccessible perios is temporal dead zone
+// that inaccessible peridos is temporal dead zone
 
 
 // Function Hoisting
@@ -158,7 +157,7 @@ function sayHello(){
 // Type error: sayHi is not a function
 
 // why ?
-// at call time sayHello = undefined
+// at call time sayHi = undefined
 
 // Topic 4 - use strict
 
